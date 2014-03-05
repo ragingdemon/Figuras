@@ -5,11 +5,14 @@ using std::string;
 
 class Figura
 {
+    static int count;
 public:
     Figura();
     Figura(const Figura&);
-    ~Figura();
-    virtual string toString()const=0;
+    virtual ~Figura();
+    virtual string toString()const;
+    static int getCount();
+
 };
 
 #endif // FIGURA_H

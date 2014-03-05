@@ -1,20 +1,19 @@
 #include "bidimensional.h"
 
-Bidimensional::Bidimensional()
+
+Bidimensional::Bidimensional() : Figura()
 {
 }
 
-Bidimensional::Bidimensional(const Bidimensional &)
+Bidimensional::Bidimensional(const Bidimensional &b) : Figura(b)
 {
-
 }
 
 Bidimensional::~Bidimensional()
 {
-
 }
 
-double Bidimensional::getArea() const
+std::string Bidimensional::toString()const
 {
-
+    return "Bidimensional";
 }

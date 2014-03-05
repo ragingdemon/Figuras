@@ -6,12 +6,16 @@ CONFIG -= qt
 SOURCES += main.cpp \
     figura.cpp \
     bidimensional.cpp \
-    point2d.cpp \
-    cuadrado.cpp
+    circulo.cpp \
+    rectangulo.cpp \
+    triangulo.cpp \
+    tridimensional.cpp
 
 HEADERS += \
     figura.h \
     bidimensional.h \
-    point2d.h \
-    cuadrado.h
+    circulo.h \
+    rectangulo.h \
+    triangulo.h \
+    tridimensional.h
 
