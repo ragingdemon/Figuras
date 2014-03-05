@@ -5,7 +5,7 @@ Circulo::Circulo(double radio) : radio(radio)
 {
 }
 
-Circulo::Circulo(const Circulo &c) : Bidimensional(c)
+Circulo::Circulo(const Circulo &c) : Bidimensional(c), radio(c.radio)
 {
 
 }

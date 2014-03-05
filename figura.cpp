@@ -21,8 +21,3 @@ int Figura::getCount()
 {
     return count;
 }
-
-std::string Figura::toString() const
-{
-    return "Figura";
-}

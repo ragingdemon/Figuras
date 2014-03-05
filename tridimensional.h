@@ -10,7 +10,7 @@ public:
     virtual ~Tridimensional();
     virtual double getArea()const=0;
     virtual double getVolumen()const=0;
-    virtual std::string toString()const;
+    virtual std::string toString()const=0;
 };
 
 #endif // TRIDIMENSIONAL_H

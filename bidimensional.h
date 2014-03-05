@@ -12,7 +12,7 @@ public:
     virtual ~Bidimensional();
     virtual double getPerimetro()const=0;
     virtual double getArea()const=0;
-    virtual string toString()const;
+    virtual string toString()const=0;
 };
 
 #endif // BIDIMENSIONAL_H

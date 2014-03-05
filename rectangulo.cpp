@@ -7,7 +7,7 @@ Rectangulo::Rectangulo(double base, double altura) :
 
 }
 
-Rectangulo::Rectangulo(const Rectangulo &r) : Bidimensional(r)
+Rectangulo::Rectangulo(const Rectangulo &r) : Bidimensional(r), base(r.base), altura(r.altura)
 {
 
 }

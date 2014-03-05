@@ -7,7 +7,7 @@ Triangulo::Triangulo(double lado1, double lado2, double lado3) :
 
 }
 
-Triangulo::Triangulo(const Triangulo &) : Bidimensional()
+Triangulo::Triangulo(const Triangulo & t) : Bidimensional(t), lado1(t.lado1), lado2(t.lado2), lado3(t.lado3)
 {
 
 }
@@ -31,6 +31,6 @@ double Triangulo::getArea() const
 string Triangulo::toString() const
 {
     std::stringstream ss;
-    ss<<"Triangulo: "<<'['<<lado1<<','<<lado2<<','<<lado3<<" area = "<<getArea()<<','<<" perimetro = "<<getPerimetro();
+    ss<<"Triangulo: "<<'['<<lado1<<','<<lado2<<','<<lado3<<']'<<" area = "<<getArea()<<','<<" perimetro = "<<getPerimetro();
     return ss.str();
 }

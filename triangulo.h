@@ -9,7 +9,7 @@ class Triangulo : public Bidimensional
     double lado1,lado2,lado3;
 public:
     Triangulo(double lado1 = 1,double lado2 = 1,double lado3 = 1);
-    Triangulo(const Triangulo&);
+    Triangulo(const Triangulo &t);
     virtual ~Triangulo();
     virtual double getPerimetro()const;
     virtual double getArea()const;

@@ -10,7 +10,7 @@ public:
     Figura();
     Figura(const Figura&);
     virtual ~Figura();
-    virtual string toString()const;
+    virtual string toString()const=0;
     static int getCount();
 
 };

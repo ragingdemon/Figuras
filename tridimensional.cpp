@@ -16,8 +16,3 @@ Tridimensional::~Tridimensional()
 {
 
 }
-
-std::string Tridimensional::toString() const
-{
-
-}
